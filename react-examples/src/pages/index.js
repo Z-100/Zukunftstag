@@ -1,0 +1,5 @@
+export * from './drinks-page'
+export * from './error-page'
+export * from './help-page'
+export * from './home-page'
+export * from './random-page'
