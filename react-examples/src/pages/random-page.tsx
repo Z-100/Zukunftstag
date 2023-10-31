@@ -1,9 +1,13 @@
 import React from 'react';
 
 export const RandomPage = () => {
+
+    // https://opensource.com/sites/default/files/uploads/linux-toy-nyancat.png
+    const imageUrl = '';
+
     return(
-        <>
-            <img alt="" src="https://opensource.com/sites/default/files/uploads/linux-toy-nyancat.png" className={"w-72 h-12 p-2 rounded-lg "} />
-        </>
+        <div className="flex h-[80%] justify-center items-center">
+            <img alt="" src={imageUrl} className="h-[75%] w-[75%]"/>
+        </div>
     );
 }
